@@ -11,7 +11,7 @@ def function_y(x, a, b):
     elif x == 0.5:
         return (b + 1) * math.sqrt(x + a)
     else:
-        return math.cos(x + b) * math.sin(x)**2
+        return math.cos(x) + b * math.sin(x)**2
     
     
 #
